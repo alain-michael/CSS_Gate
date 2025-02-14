@@ -660,6 +660,9 @@
   .font-\[\#\] {
     font-family: #;
   }
+  .font-\[gpc\] {
+    font-family: gpc;
+  }
   .font-\[sumana\] {
     font-family: sumana;
   }
