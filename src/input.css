@@ -4,3 +4,19 @@
     --font-libre: "Libre Franklin";
     --font-gpc: "GPC"
 }
+
+@font-face {
+    font-family: "GPC";
+    src: url("https://www.nd.edu/assets/fonts/gpc-bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Libre Franklin";
+    src: url("https://www.nd.edu/assets/fonts/libre-franklin-v2-latin-regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
