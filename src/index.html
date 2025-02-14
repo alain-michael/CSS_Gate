@@ -12,6 +12,13 @@
       crossorigin=""
     />
     <link
+      rel="preload"
+      href="https://www.nd.edu/assets/fonts/gpc-bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -24,9 +31,78 @@
   <body>
     <header></header>
     <main class="font-[sumana]">
-      <section class="mx-16 my-24 p-4">
-        <h4 class="font-libre ">University Events</h2>
-        <h2 class="font-libre font-[gpc]">Notre Dame in Motion</h2>
+      <section class="mx-16">
+        <h4>University Stories</h4>
+        <h2 class="font-gpc text-5xl">Notre Dame In Focus</h2>
+        <a href="#">View all stories</a>
+        <div class="flex gap-8">
+          <article class="flex flex-col">
+            <img
+              src="https://www.nd.edu/stories/images/2025/2025-sampoorna-800.webp"
+              alt=""
+            />
+            <div class="p-6">
+              <h2 class="font-libre">Global</h2>
+              <h3>Empowering through education</h3>
+              <p>A pathway out of poverty for children in India</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="https://www.nd.edu/stories/images/2025/2025-habitat-800.jpg"
+              alt=""
+            />
+            <div class="p-6">
+              <h2>Community</h2>
+              <h3>
+                Habitat partnership bears fruit for homebuyers in South Bend
+              </h3>
+            </div>
+          </article>
+          <article>
+            <img
+              src="https://www.nd.edu/stories/images/2024/2024-reasons-to-serve-800.webp"
+              alt=""
+            />
+            <div class="p-6">
+              <h2>University</h2>
+              <h3>Reasons to serve</h3>
+              <p>
+                History, West Point, and 9/11 memorial inspire ND ROTC students
+                in New York
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="flex flex-col md:flex-row items-center">
+        <div class="p-4 md:p-16 md:pr-24 bg-[#0c2340] order-2">
+          <blockquote>
+            <p
+              class="text-2xl md:text-[28px] md:leading-relaxed font-light text-white"
+            >
+              “Notre Dame must be the leading global Catholic research
+              university, on par with but distinct from the world's best private
+              universities. This effort to educate students and conduct research
+              at the highest level animated by a distinctive Catholic mission is
+              one of the most exciting and consequential experiments in global
+              higher education.”
+            </p>
+            <cite
+              class="font-libre text-base font-light text-right text-[#c1cddd] w-full block not-italic mt-6"
+              >— Notre Dame 2033: A Strategic Framework</cite
+            >
+          </blockquote>
+        </div>
+        <img
+          class="w-[100vw] md:w-[44vw] object-cover order-1"
+          src="https://www.nd.edu/assets/images/home/dowd-students-800.jpg"
+          alt=""
+        />
+      </section>
+      <section class="mx-4 md:mx-16 my-24 p-4">
+        <h4 class="font-libre">University Events</h4>
+        <h2 class="font-gpc text-5xl text-[#0c2340]">Notre Dame In Motion</h2>
         <a href="https://events.nd.edu/">View all events</a>
         <div class="grid grid-cols-1 md:grid-cols-2 font-sum">
           <article class="flex gap-6 items-baseline">
